@@ -408,6 +408,120 @@ body.hide-scrolling {
   overflow-y: hidden;
 }
 
+/* 
+.portfolioo-popup {
+}
+
+.portfolio-popup {
+  padding: 20px;
+  width: 700px;
+  background: rgba(53, 48, 48, 0.74) !important;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+  border-radius: 1rem;
+}
+*/
+
+.portfolioo-popup .portfolio-popup {
+  position: relative;
+}
+
+.portfolioo-popup .portfolio-popup .btn {
+  height: 40px;
+  width: 40px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: -11px;
+  top: -11px;
+  color: #FFFFFF;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border: 2px solid #ecb731;
+  outline: none;
+  background: #ecb731;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.portfolioo-popup .portfolio-popup .btn:hover {
+  background: none;
+  transition: 0.5s all ease;
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  -o-transition: 0.5s all ease;
+  -ms-transition: 0.5s all ease;
+}
+
+
+.portfolioo-popup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: transparent !important;
+  z-index: 200;
+  opacity: 0.9;
+  visibility: hidden;
+  font-family: 'Roboto', sans-serif;
+  font-size: 100%;
+  background: url(../images/banner.jpg) no-repeat center top;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-attachment: fixed;
+}
+
+.portfolioo-popup.open {
+  visibility: visible;
+  overflow-y: auto;
+}
+
+.portfolio-popup {
+  width: 65%;
+  /* height: 70%; */
+  margin: 0 auto;
+  background-color: rgb(90, 89, 89);
+  border-radius: 1rem;
+  position: relative;
+}
+
+.portfolioo-popup .portfolio-popup .btn {
+  height: 40px;
+  width: 40px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: -11px;
+  top: -11px;
+  color: #FFFFFF;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border: 3px solid #ecb731;
+  outline: none;
+  background: #ecb731;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.portfolioo-popup .portfolio-popup .btn:hover {
+  background: none;
+  transition: 0.2s all ease;
+  -webkit-transition: 0.2s all ease;
+  -moz-transition: 0.2s all ease;
+  -o-transition: 0.2s all ease;
+  -ms-transition: 0.2s all ease;
+}
+
 
 .alert {
   width: 100%;
@@ -422,8 +536,6 @@ body.hide-scrolling {
   display: none;
 }
 
-
-/*--// form --*/
 
 /*=============== ABOUT ===============*/
 
